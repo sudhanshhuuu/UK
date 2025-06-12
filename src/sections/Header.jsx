@@ -49,7 +49,7 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-               <img src={whatsapp} alt="WhatsApp Icon"  className='w-10 h-10'/>
+               <img src={whatsapp} alt="WhatsApp-Icon"  className='w-10 h-10'/>
             </a>
 
             {/* Mobile Menu Toggle Icon */}
