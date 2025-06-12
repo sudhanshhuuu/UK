@@ -18,7 +18,7 @@ const Footer = () => {
                 {/* Links */}
                 <div className='flex gap-6 mt-4 md:mt-0'>
                     <a
-                        href='https://github.com/sumu9897'
+                        // href='https://github.com/sumu9897'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='hover:text-yellow-500 transition-colors duration-300'
@@ -26,7 +26,7 @@ const Footer = () => {
                         <FaGithub size={24} />
                     </a>
                     <a
-                        href='https://linkedin.com/in/md-sumon9897'
+                        // href='https://linkedin.com/in/md-sumon9897'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='hover:text-yellow-500 transition-colors duration-300'
@@ -34,7 +34,7 @@ const Footer = () => {
                         <FaLinkedin size={24} />
                     </a>
                     <a
-                        href='mailto:mohammad.sumon9897@gmail.com'
+                        // href='mailto:mohammad.sumon9897@gmail.com'
                         className='hover:text-yellow-500 transition-colors duration-300'
                     >
                         <FaEnvelope size={24} />
