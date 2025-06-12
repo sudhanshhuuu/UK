@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaXmark, FaBars } from 'react-icons/fa6';
 import { Link } from 'react-scroll';
-import  whatsapp  from '../assets/project/whatsapp.png';
+import  whatsapp  from '../assets/project/WhatsApp.png';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
