@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaXmark, FaBars } from 'react-icons/fa6';
 import { Link } from 'react-scroll';
-import  whatsapp  from '../assets/whatsapp.png';
+// import  whatsapp  from '../assets/project/whatsapp.png';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -49,7 +49,9 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-               <img src={whatsapp} alt="WhatsApp-Icon"  className='w-10 h-10'/>
+               <button className='bg-yellow-500 text-black uppercase font-bold cursor-pointer p-3 rounded-full hover:bg-black hover:text-yellow-500 text-[16px]'>
+                    whatsapp   
+                </button>
             </a>
 
             {/* Mobile Menu Toggle Icon */}
